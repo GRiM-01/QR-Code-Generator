@@ -4,9 +4,6 @@ Python based QR code generator.
 
 Main libraries: pyqr and customtkinter.
 
-The app version was too large to upload, I've uploaded the script and all necessary resources.
+The app version was too large to upload normally so Ihave loaded it as a Release in a zip folder. 
 
-To convert the script to an executable, install pyinstaller using "pip install pyinstaller" and use the following command in the terminal or CMD:
-
-pyinstaller --onefile --icon=myIcon.ico --noconsole QR_Code_Generator_GUI.py
-
+The app has a help button that will explain general procedure if necessary however, it is a rather simple and intuitive process.
