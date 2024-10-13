@@ -141,7 +141,7 @@ def quit_application():
 
 
 def show_help():
-    help_message = "Enter your URL and a Name for the QR code into the entry boxes." + '\n' + "Select a value on the slider for error correction and redundancy." + '\n' + "Finally, press enter to create your QR code." + '\n''\n' + 'Note*' +'\n''\n'+ "Higher redundancy leads to bigger QR codes, which due to increased error protection, may require more space and hold less data, leading to slower scanning and potential compatibility issues with some scanners." + '\n''\n' "However, lower levels of redundacy may make the QR codes more susceptible to errors or damage, which can lead to difficulties in scanning and retrieving accurate data."
+    help_message = "Enter your URL and a Name for the QR code into the entry boxes." + '\n' + "Select a value on the first slider for error correction and redundancy." + '\n' + "The slider at the bottom can be used to toggle between PNG (default) and svg save modes." + '\n' + "Finally, press enter to create your QR code." + '\n''\n' + 'Note*' +'\n''\n'+ "Higher redundancy leads to bigger QR codes, which due to increased error protection, may require more space and hold less data, leading to slower scanning and potential compatibility issues with some scanners." + '\n''\n' "However, lower levels of redundacy may make the QR codes more susceptible to errors or damage, which can lead to difficulties in scanning and retrieving accurate data."
     messagebox.showinfo("Help", help_message)
 
 
